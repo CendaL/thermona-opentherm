@@ -1,0 +1,73 @@
+Exception 0: Illegal instruction
+PC: 0x402010f4
+EXCVADDR: 0x00000000
+
+Decoding stack results
+0x401001e2: OPENTHERM::_writeBit(unsigned char, unsigned char) at C:\Users\lucen\Downloads\Arduino\thermona.el9/opentherm.cpp line 204
+0x4010041b: OPENTHERM::_timerISR() at C:\Users\lucen\Downloads\Arduino\thermona.el9/opentherm.cpp line 169
+0x401004f4: timer1_isr_handler(void*, void*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_timer.cpp line 37
+0x4010053c: timer1_isr_handler(void*, void*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_timer.cpp line 44
+0x40101340: _stopPWM(uint8_t) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_waveform_pwm.cpp line 264
+0x40101340: _stopPWM(uint8_t) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_waveform_pwm.cpp line 264
+0x40100750: __digitalWrite(uint8_t, uint8_t) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_wiring_digital.cpp line 87
+0x401001e2: OPENTHERM::_writeBit(unsigned char, unsigned char) at C:\Users\lucen\Downloads\Arduino\thermona.el9/opentherm.cpp line 204
+0x401004bc: ets_post(uint8, ETSSignal, ETSParam) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 181
+0x401004f4: timer1_isr_handler(void*, void*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_timer.cpp line 37
+0x401004f4: timer1_isr_handler(void*, void*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_timer.cpp line 37
+0x4010053c: timer1_isr_handler(void*, void*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_timer.cpp line 44
+0x4020674a: loop_task(ETSEvent*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 214
+0x401011a8: cont_check(cont_t*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\cont_util.cpp line 46
+0x40206742: loop_task(ETSEvent*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 213
+0x40100de4: umm_init() at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\umm_malloc\umm_malloc.cpp line 476
+0x401000ac: app_entry_redefinable() at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 325
+0x401004bc: ets_post(uint8, ETSSignal, ETSParam) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 181
+0x401004bc: ets_post(uint8, ETSSignal, ETSParam) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 181
+0x401004bc: ets_post(uint8, ETSSignal, ETSParam) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 181
+0x401004bc: ets_post(uint8, ETSSignal, ETSParam) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 181
+0x401004bc: ets_post(uint8, ETSSignal, ETSParam) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 181
+0x401004bc: ets_post(uint8, ETSSignal, ETSParam) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 181
+0x4021e305: br_sha2small_round at src/hash/sha2small.c line 98
+0x4021df00: br_sha2small_round at src/hash/sha2small.c line 86
+0x401004bc: ets_post(uint8, ETSSignal, ETSParam) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 181
+0x40211215: glue2esp_linkoutput at glue-esp/lwip-esp.c line 301
+0x40211443: new_linkoutput at glue-lwip/lwip-git.c line 268
+0x401004bc: ets_post(uint8, ETSSignal, ETSParam) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 181
+0x402173f8: etharp_output_to_arp_index at core/ipv4/etharp.c line 769
+0x401004bc: ets_post(uint8, ETSSignal, ETSParam) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 181
+0x40211215: glue2esp_linkoutput at glue-esp/lwip-esp.c line 301
+0x40100c2b: umm_free_core(umm_heap_context_t*, void*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\umm_malloc\umm_malloc.cpp line 549
+0x40211443: new_linkoutput at glue-lwip/lwip-git.c line 268
+0x4021189e: ethernet_output at netif/ethernet.c line 312
+0x40206872: __yield() at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 116
+0x402173f8: etharp_output_to_arp_index at core/ipv4/etharp.c line 769
+0x402174cc: etharp_output_LWIP2 at core/ipv4/etharp.c line 885
+0x40202cb0: BearSSL::WiFiClientSecureCtx::connected() at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\libraries\ESP8266WiFi\src\WiFiClientSecureBearSSL.cpp line 260
+0x40218cc4: ip4_output_if_opt_src at core/ipv4/ip4.c line 1764
+0x401007e0: pvPortMalloc(size_t, char const*, int) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\umm_malloc/umm_heap_select.h line 85
+0x40218d2c: ip4_output_if_opt at core/ipv4/ip4.c line 1572
+0x4021191c: memp_malloc at core/memp.c line 355
+0x40218d52: ip4_output_if at core/ipv4/ip4.c line 1549
+0x40100c2b: umm_free_core(umm_heap_context_t*, void*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\umm_malloc\umm_malloc.cpp line 549
+0x40100c2b: umm_free_core(umm_heap_context_t*, void*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\umm_malloc\umm_malloc.cpp line 549
+0x40101340: _stopPWM(uint8_t) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_waveform_pwm.cpp line 264
+0x40100750: __digitalWrite(uint8_t, uint8_t) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_wiring_digital.cpp line 87
+0x40101340: _stopPWM(uint8_t) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_waveform_pwm.cpp line 264
+0x40100750: __digitalWrite(uint8_t, uint8_t) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_wiring_digital.cpp line 87
+0x40101340: _stopPWM(uint8_t) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_waveform_pwm.cpp line 264
+0x401004f4: timer1_isr_handler(void*, void*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_timer.cpp line 37
+0x40100750: __digitalWrite(uint8_t, uint8_t) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_wiring_digital.cpp line 87
+0x401001e2: OPENTHERM::_writeBit(unsigned char, unsigned char) at C:\Users\lucen\Downloads\Arduino\thermona.el9/opentherm.cpp line 204
+0x401004f4: timer1_isr_handler(void*, void*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_timer.cpp line 37
+0x401003fd: OPENTHERM::_timerISR() at C:\Users\lucen\Downloads\Arduino\thermona.el9/opentherm.cpp line 165
+0x402068bd: __loop_end() at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 188
+0x401004f4: timer1_isr_handler(void*, void*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_timer.cpp line 37
+0x4010053c: timer1_isr_handler(void*, void*) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_timer.cpp line 44
+0x401004dd: esp_schedule() at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 128
+0x401004dd: esp_schedule() at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 128
+0x4010058a: timer1_attachInterrupt(timercallback) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_timer.cpp line 54
+0x402052ae: Print::print(unsigned long, int) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\Print.cpp line 153
+0x402010c9: OPENTHERM::_startWriteTimer() at C:\Users\lucen\Downloads\Arduino\thermona.el9/opentherm.cpp line 397
+0x40201208: OPENTHERM::send(unsigned char, OpenthermData&, void (*)()) at C:\Users\lucen\Downloads\Arduino\thermona.el9/opentherm.cpp line 66
+0x401004bc: ets_post(uint8, ETSSignal, ETSParam) at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 181
+0x401004dd: esp_schedule() at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 128
+0x40206906: loop_wrapper() at C:\Users\lucen\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.0.2\cores\esp8266\core_esp8266_main.cpp line 205
